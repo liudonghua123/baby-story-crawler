@@ -70,7 +70,7 @@ const download = async (url, fileName) => {
 };
 
 (async () => {
-  const files = fs.readdirSync('input');
+  const files = fs.readdirSync('input').filter(file => file.endsWith('.png'));
   for (const file of files) {
     console.info(`processing input/${file}`);
     const url = parseUrl(`input/${file}`);
