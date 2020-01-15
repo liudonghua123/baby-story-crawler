@@ -1,0 +1,24 @@
+{
+  "name": "baby-story-crawler",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liudonghua123/baby-story-crawler.git"
+  },
+  "author": "liudonghua",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/liudonghua123/baby-story-crawler/issues"
+  },
+  "homepage": "https://github.com/liudonghua123/baby-story-crawler#readme",
+  "dependencies": {
+    "jsqr": "^1.2.0",
+    "node-fetch": "^2.6.0",
+    "pngjs": "^3.4.0"
+  }
+}
